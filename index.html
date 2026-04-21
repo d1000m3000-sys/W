@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header>
+  <h1>W</h1>
+</header>
+
+<div class="container">
+
+  <div class="upload-box">
+    <h3>رفع فيلم</h3>
+    <input id="title" placeholder="عنوان الفيلم">
+    <input id="thumb" placeholder="رابط الصورة">
+    <input id="video" placeholder="رابط الفيديو">
+    <button onclick="upload()">رفع</button>
+  </div>
+
+  <h3>الأفلام</h3>
+  <div id="movies"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
