@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #ffffff;
+  color: #000;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.container {
+  padding: 15px;
+}
+
+.upload-box {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4 {
+  padding: 10px;
+}
+
+video {
+  width: 100%;
+}
